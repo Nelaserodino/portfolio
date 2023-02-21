@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 3rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 2rem;
+
+    .copyright {
+        p{
+            font-size: 0.85rem;
+            span {
+                color: #b087d1;
+                font-weight: 800;
+            }
+        }
+    }
+}

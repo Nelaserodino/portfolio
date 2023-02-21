@@ -1,0 +1,49 @@
+.container{
+    .profile-pic{
+        display: flex; 
+        justify-content: center;
+        img{
+            height: 300px;
+            width: 300px;
+            @media(max-width : 576px){
+                height: 200px;
+                width: 200px;
+            }
+        }
+    }
+    .about-subtitle{
+        h3{
+            padding: 0 50px 30px 50px;
+            text-align: justify;
+            font-family: 'Fira Code', monospace;
+            font-weight: 300;
+            @media(max-width : 576px){
+                padding: 0 20px;
+            }
+        }
+    }
+   .buttons-about{
+    padding: 0 50px 150px 50px;
+    display: flex;
+    justify-content: center;
+    @media(max-width : 576px){
+        padding: 10px 20px;
+    }
+    a{
+        text-decoration: none;
+        margin-top: 1rem;
+        background: #b087d1;
+        padding: 0.65rem 1rem;
+        border-radius: 10px;
+        font-size: 0.85rem;
+        margin: 0 10px;
+        color: white;
+        &:hover{
+                background-color: #3f3f3f;
+                color: white;
+                transform: scale(1.2);
+                transition: transform 0.7s;
+        }
+    }
+    }
+}
