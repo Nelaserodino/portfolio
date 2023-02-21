@@ -49,7 +49,7 @@ const Contact = () => {
             return (
               <div className='contact_left' key={info.id}>
                 <div className="icon">
-                  <a href={info.link} target="_blank"> {info.icon}</a>
+                  <motion.a href={info.link} target="_blank"> {info.icon}</motion.a>
                 </div>
                 <p>{info.value}</p>
               </div>

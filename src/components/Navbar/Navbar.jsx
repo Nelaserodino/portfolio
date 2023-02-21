@@ -57,7 +57,7 @@ const Navbar = () => {
                   {socialIcons.map((socialIcon, index) => {
                   return (
                       <div key={index}>
-                        <a href={socialIcon.props.link} target="_blank" rel="noreferrer">{socialIcon}</a>
+                        <motion.a href={socialIcon.props.link} target="_blank">{socialIcon}</motion.a>
                       </div>
                   )
               })}
