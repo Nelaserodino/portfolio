@@ -168,7 +168,7 @@ export const workImages = [
     name: "Movie Time",
     description: "A Netflix clone made with React and Tailwind",
     category: "All",
-    link:"https://movie-time-three.vercel.app/",
+    link:"https://nelaserodino-movie-time.vercel.app",
     github:"https://github.com/Nelaserodino/netflix_clone"
   },
   {
@@ -177,7 +177,7 @@ export const workImages = [
     name: "Calculator",
     description: "A simple calculator made with Javascript Vainilla",
     category: 'All',
-    link:"https://calculator-two-mocha.vercel.app/",
+    link:"https://nelaserodino-calculator.vercel.app",
     github:"https://github.com/Nelaserodino/Calculator"
   },
   {
@@ -186,7 +186,7 @@ export const workImages = [
     name: "Mapty App",
     description: "An app to track running and cycling workouts made with Javascript",
     category: "All",
-    link:"https://mapty-app-five.vercel.app/",
+    link:"https://nelaserodino-mapty-app.vercel.app",
     github:"https://github.com/Nelaserodino/Mapty_App"
   },
   {
@@ -195,7 +195,7 @@ export const workImages = [
     name: "Guess my Number",
     description: "A fun game made with Javascript",
     category: "All",
-    link:"https://guess-my-number-taupe.vercel.app/",
+    link:"https://nelaserodino-guess-my-number.vercel.app",
     github:"https://github.com/Nelaserodino/Guess_my_number"
   },
 ]
