@@ -8,6 +8,8 @@ const Portfolio = () => {
   const [tab, setTab] = useState({ name: "all" });
   const [works,setWorks] = useState([]);
 
+
+
   useEffect(() => {
     if (tab.name === "all") {
       setWorks(workImages)
@@ -48,8 +50,8 @@ const Portfolio = () => {
               <motion.div
                 initial={{opacity: 0}}
                 whileHover={{ opacity: [0, 1] }}
-                whileTap={{ opacity: [0, 1] }}
-                transition={{duration: 0.3 , ease: "easeInOut"}}
+                onTap={{ opacity: [0, 1] }}
+                transition={{duration: 0.5 , ease: "easeInOut"}}
                 className='hoverLayer'
               >
                 <h2>{work.name}</h2>
