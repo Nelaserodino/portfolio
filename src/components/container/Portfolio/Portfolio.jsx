@@ -20,9 +20,6 @@ const Portfolio = () => {
     }
   }, [tab])
   
-  const handleTap = (event, info) => {
-    event.currentTarget.classList.toggle("active");
-  };
 
 
   return (
@@ -53,9 +50,8 @@ const Portfolio = () => {
               <motion.div
                 initial={{opacity: 0}}
                 whileHover={{ opacity: [0, 1] }}
-                whileTap={{ opacity: [0, 1] }}
+                onTap={{ opacity: [0, 1] }}
                 transition={{duration: 0.5 , ease: "easeInOut"}}
-                onTap={handleTap}
                 className='hoverLayer'
               >
                 <h2>{work.name}</h2>
