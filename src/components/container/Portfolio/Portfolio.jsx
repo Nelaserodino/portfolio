@@ -48,6 +48,7 @@ const Portfolio = () => {
               <motion.div
                 initial={{opacity: 0}}
                 whileHover={{ opacity: [0, 1] }}
+                whileTap={{ opacity: [0, 1] }}
                 transition={{duration: 0.3 , ease: "easeInOut"}}
                 className='hoverLayer'
               >
