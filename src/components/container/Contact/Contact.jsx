@@ -48,7 +48,14 @@ const Contact = ({t}) => {
             return (
               <div className='contact_left' key={info.id}>
                 <div className="icon">
-                  <motion.a href={info.link} target="_blank"> {info.icon}</motion.a>
+                  <motion.a href={
+                    info.link === "linkedin" 
+                    ? "https://www.linkedin.com/in/marianela-serodino-runco/"
+                    : info.link === "github"
+                    ? "https://github.com/Nelaserodino"
+                    : info.link 
+                  }
+                   target="_blank"> {info.icon}</motion.a>
                 </div>
                 <p>{info.value}</p>
               </div>

@@ -34,14 +34,14 @@ export const bios = [
     icon: <FaLinkedin />,
     key: "Linkedin",
     value: "in/marianela-serodino-runco",
-    link: "https:/www.linkedin.com/in/marianela-serodino-runco"
+    link: "linkedin"
   },
   {
     id: 4,
     icon: <FaGithub />,
     key: "Github",
     value: "https:/github.com/Nelaserodino",
-    link: "https:/github.com/Nelaserodino"
+    link: "github"
   }
 ]
 
