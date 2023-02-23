@@ -3,7 +3,7 @@ import "./Navbar.scss";
 import { motion } from 'framer-motion';
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { navLinks } from '../../Data';
-import { socialIcons } from '../../Data';
+import { FaGithub, FaLinkedin} from "react-icons/fa";
 
 
 const Navbar = ({t, i18n}) => {
@@ -49,8 +49,6 @@ const Navbar = ({t, i18n}) => {
           className={scroll ? "header active" : "header"}>
           <div className="Nav_container">
             <div className='nav_options'>
-
-            
                <ul
                 className="nav_links"
                    >
@@ -65,13 +63,8 @@ const Navbar = ({t, i18n}) => {
                             }
             </div>
               <div className="social_icons" >
-                  {socialIcons.map((socialIcon, index) => {
-                  return (
-                      <div key={index}>
-                        <motion.a href={socialIcon.props.link} target="_blank">{socialIcon}</motion.a>
-                      </div>
-                  )
-              })}
+                <motion.a href="https://www.linkedin.com/in/marianela-serodino-runco/"target="_blank">{<FaLinkedin/>}</motion.a>
+                <motion.a href="https://github.com/Nelaserodino"target="_blank">{<FaGithub/>}</motion.a>
               </div>
               <div className="menu" >
                   <HiMenuAlt4 onClick={() => {setToggle(true)}}/>

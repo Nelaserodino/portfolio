@@ -13,10 +13,6 @@ import work7 from "./assets/work7.png";
 
 export const navLinks = ["home", "about", "skills", "portfolio", "contact"]
 
-export const socialIcons = [
-  <FaLinkedin link={"https:/www.linkedin.com/in/marianela-serodino-runco"}/>,
-  <FaGithub link={"https:/github.com/Nelaserodino"}/>
-]
 
 export const bios = [
   {
