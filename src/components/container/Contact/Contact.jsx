@@ -1,12 +1,11 @@
-import {React, useRef, useState} from 'react';
+import {React, useRef} from 'react';
 import emailjs from '@emailjs/browser'
 import "./Contact.scss";
 import { bios } from '../../../Data';
 import { motion } from 'framer-motion';
 import Swal from 'sweetalert2'
 
-const Contact = () => {
-  const [message, setMessage] = useState("");
+const Contact = ({t}) => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -35,7 +34,7 @@ const Contact = () => {
         whileInView={{y: [-50, 0], opacity: 1}} 
         className="title"
       >
-            <h1>Contact Me<span>.</span></h1>
+            <h1>{t("section_contact.title")}<span>.</span></h1>
             
       </motion.div>
       <div className="contact_form">
@@ -44,7 +43,7 @@ const Contact = () => {
           whileInView={{ x: [-150,0], opacity: 1 }}
           transition={{duration: 1}}
           className='contact_left_container'>
-          <h3>Just Say Hi</h3>
+          <h3>{t("section_contact.subtitle1")} 👋</h3>
           {bios.map(info => {
             return (
               <div className='contact_left' key={info.id}>
@@ -63,25 +62,25 @@ const Contact = () => {
           className="contact_right"
         
         >
-          <h3>Get In Touch</h3>
+          <h3>{t("section_contact.subtitle2")}</h3>
           <form ref={form} onSubmit={sendEmail} id="contact-form">
           <div className="row">
-            <input type="text" placeholder='First Name' name='user_name' required/>
-            <input type="text" placeholder='Last name'name='user_lastName'/>
+            <input type="text" placeholder={t("section_contact.name")} name='user_name' required/>
+            <input type="text" placeholder={t("section_contact.last_name")} name='user_lastName'/>
           </div>
           <div className="row">
-            <input type="text" placeholder='Phone' name='user_phone'/>
-            <input type="email" placeholder='Email' name='user_email' required/>
+            <input type="text" placeholder={t("section_contact.phone")}  name='user_phone'/>
+            <input type="email" placeholder={t("section_contact.email")}  name='user_email' required/>
           </div>
           <div className="row">
-            <textarea placeholder='message' name='message' required></textarea>
+            <textarea placeholder={t("section_contact.message")}  name='message' required></textarea>
           </div>
           <motion.div
             whileHover={{ scale: 1.1 }}
             transition={{duration: 0.3}}
             className="btn"
           >
-            <input type="submit" value="SEND"></input>
+            <input type="submit" value={t("section_contact.button_send")} ></input>
           </motion.div>
           </form>
          

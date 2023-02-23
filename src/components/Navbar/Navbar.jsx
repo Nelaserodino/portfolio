@@ -4,10 +4,12 @@ import { motion } from 'framer-motion';
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { navLinks } from '../../Data';
 import { socialIcons } from '../../Data';
-const Navbar = () => {
-    
+
+
+const Navbar = ({t, i18n}) => {
     const [scroll, setScroll] = useState(false);
-    const [toggle, setToggle] = useState(false)
+    const [toggle, setToggle] = useState(false);
+ 
     
     const menuVariants = {
         hidden: {
@@ -46,13 +48,22 @@ const Navbar = () => {
           transition={{duration: 0.5}}
           className={scroll ? "header active" : "header"}>
           <div className="Nav_container">
-              <ul
+            <div className='nav_options'>
+
+            
+               <ul
                 className="nav_links"
                    >
                   {navLinks.map((navlink,index) => {
-                      return <li key={index}><a className={scroll ? "active" : ""} href={`#${navlink}`}>{navlink}</a></li>
+                      return <li key={index}><a className={scroll ? "active" : ""} href={`#${navlink}`}>{t(`navBar.${navlink}`)}</a></li>
                   })}
-              </ul>
+               </ul>
+                  {scroll && <div className='language_buttons'>
+                                <button onClick={()=> i18n.changeLanguage("es")}>🇪🇸</button>
+                                <button onClick={()=> i18n.changeLanguage("en")}>🇬🇧</button>
+                            </div>
+                            }
+            </div>
               <div className="social_icons" >
                   {socialIcons.map((socialIcon, index) => {
                   return (
@@ -81,8 +92,12 @@ const Navbar = () => {
                       return <li
                           key={index}><a
                          
-                          href={`#${navlink}`} onClick={() => setToggle(false)}>{navlink}</a></li>
+                          href={`#${navlink}`} onClick={() => setToggle(false)}>{t(`navBar.${navlink}`)}</a></li>
                   })}
+                  <div className='language_buttons_mobile'>
+                                <button onClick={()=> i18n.changeLanguage("es")}>🇪🇸</button>
+                                <button onClick={()=> i18n.changeLanguage("en")}>🇬🇧</button>
+                            </div>
               </motion.div>
           </div>
     </motion.div>

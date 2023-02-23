@@ -5,7 +5,8 @@ import { iconsBack } from '../../../Data';
 import { iconsVersionControl } from '../../../Data';
 import { experiences } from '../../../Data';
 import { motion } from 'framer-motion';
-const Skills = () => {
+
+const Skills = ({t}) => {
   const [active, setActive] = useState(1)
   return (
     <div className="container" id="skills">
@@ -15,8 +16,8 @@ const Skills = () => {
         transition={{delay: 1, y:{duration:2}}}  
         className="title"
       >
-        <h1>MY BACKGROUND<span>.</span></h1>
-        <h2>Skills And Experience</h2>
+        <h1>{t("section_background.title")}<span>.</span></h1>
+        <h2>{t("section_background.subtitle")}</h2>
       </motion.div>
       <motion.div
         initial={{opacity: 0}}
@@ -25,21 +26,21 @@ const Skills = () => {
       >
         <button
           onClick={() => setActive(1)}
-          className={active === 1 ? "active" : ""}>Skills</button>  
+          className={active === 1 ? "active" : ""}>{t("section_background.button_skills")}</button>  
         <button
           onClick={() => setActive(2)}
           className={active === 2 ? "active" : ""}
-        >Experience</button>
+        >{t("section_background.button_experience")}</button>
        
       </motion.div>
       <motion.div className="skills-description"
       initial={{opacity: 0}}
       whileInView={{y: [-50, 0], opacity: 1}}>
       
-        {active === 1 && <p>As a web developer, I love the challenge of creating beautiful, user-friendly websites and web applications that are both functional and aesthetically pleasing. I am constantly exploring new technologies and staying up-to-date with the latest trends to ensure that my work is always at the cutting edge.</p>}
+        {active === 1 && <p>{t("section_background.description_skills")}</p>}
 
         {active === 2 && <p>
-          While I may have little work experience, I am eager to learn and am excited for opportunities to gain new skills and grow as a professional.</p>}
+          {t("section_background.description_experience")}</p>}
        
         
       </motion.div>

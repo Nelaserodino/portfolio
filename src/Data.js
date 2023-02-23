@@ -2,6 +2,7 @@ import { FaHtml5, FaCss3, FaNodeJs, FaReact, FaSass, FaFigma, FaPhoneAlt, FaPape
 import {  DiMysql } from "react-icons/di";
 import { SiExpress, SiJavascript, SiTypescript } from "react-icons/si";
 
+
 import work1 from "./assets/work1.png";
 import work2 from "./assets/work2.png";
 import work3 from "./assets/work3.png";
@@ -138,7 +139,7 @@ export const workImages = [
   {
     id: 1,
     img: work1,
-    name: "MVP for HousIA",
+    name: "HousIA",
     description:"MVP development for HousIA. The app allows users to obtain a property valuation using artificial intelligence. It provides accurate results by analyzing market trends, property features, and location data.",
     category: "All",
     link:"https://www.youtube.com/watch?v=jCA8dnz_zPY",

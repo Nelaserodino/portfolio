@@ -1,0 +1,47 @@
+{
+    "navBar": {
+        "home": "HOME",
+        "about": "ABOUT",
+        "skills": "SKILLS",
+        "portfolio": "PORTFOLIO",
+        "contact": "CONTACT"
+    },
+    "section_about":{
+        "title": "ABOUT ME",
+        "message": "Hello there, and welcome to my webpage! My name is Nela, and I'm a junior web developer who is passionate about technology. I have always been fascinated by the power of the internet and the way it connects people from all over the world. This fascination eventually led me to pursue a career in web development.",
+        "button_contact": "Contact me",
+        "button_cv": "Download CV"
+    },
+    "section_background":{
+        "title":"MY BACKGROUND",
+        "subtitle": "Skills and experience",
+        "button_skills": "Skills",
+        "description_skills": "As a web developer, I love the challenge of creating beautiful, user-friendly websites and web applications that are both functional and aesthetically pleasing. I am constantly exploring new technologies and staying up-to-date with the latest trends to ensure that my work is always at the cutting edge.",
+        "button_experience": "Experience",
+        "description_experience": "While I may have little work experience, I am eager to learn and am excited for opportunities to gain new skills and grow as a professional."
+    },
+   "section_work":{
+    "title": "MY WORK",
+    "subtitle": "These are some of the projects I have been working on",
+    "description": [
+        "MVP development for HousIA.",
+        "My solo project for Socratech school is a web application that enables collectors to showcase their collections. Users can create profiles, upload photos and descriptions of their items, and connect with other collectors to share their passion.",
+        "This is the first website that I created and has its own domain on the internet. Students can easily find information about the teacher's experience, the exam, and reviews.",
+        "A Netflix clone made with React and Tailwind",
+        "A simple calculator made with Javascript Vainilla",
+        "An app to track running and cycling workouts made with Javascript",
+        "A fun game made with Javascript"]
+    
+   },
+   "section_contact": {
+       "title": "CONTACT ME",
+       "subtitle1":"Just say",
+       "subtitle2": "Get in touch",
+       "name": "First Name",
+       "last_name": "Last Name",
+       "phone": "Phone",
+       "email": "Email",
+       "message": "Message",
+       "button_send":"SEND"
+   }   
+}

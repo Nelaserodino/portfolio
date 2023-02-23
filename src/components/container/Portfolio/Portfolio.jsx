@@ -1,26 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import "./Portfolio.scss"
 import { workImages } from '../../../Data';
 import { motion } from 'framer-motion';
 import { FaGithub, FaPlusCircle } from 'react-icons/fa';
 
-const Portfolio = () => {
-  const [tab, setTab] = useState({ name: "all" });
-  const [works,setWorks] = useState([]);
-
-
-  useEffect(() => {
-    if (tab.name === "all") {
-      setWorks(workImages)
-    } else {
-      const newWork = workImages.filter(workImage => {
-        return workImage.category.toLowerCase() === tab.name;
-      })
-      setWorks(newWork)
-    }
-  }, [tab])
-  
-
+const Portfolio = ({t}) => {
 
   return (
     <div className="container" id="portfolio">
@@ -28,10 +12,9 @@ const Portfolio = () => {
         initial={{opacity: 0}}
         whileInView={{y: [-50, 0], opacity: 1}}
         className="title"
-      
       >
-            <h1>My Work<span>.</span></h1>
-           <h3>These are some of the projects I have been working on</h3>
+            <h1>{t("section_work.title")}<span>.</span></h1>
+           <h3>{t("section_work.subtitle")}</h3>
       </motion.div>
      
       <motion.div
@@ -41,7 +24,7 @@ const Portfolio = () => {
         exit={{opacity: 0, y: -50}}
         className="workImages"
       >
-        {works.map((work) => {
+        {workImages.map((work, i) => {
           return (
             <div className="workImage"
              key={work.id}
@@ -50,13 +33,14 @@ const Portfolio = () => {
               <motion.div
                 initial={{opacity: 0}}
                 whileHover={{ opacity: [0, 1] }}
-                onTap={{ opacity: [0, 1] }}
+                whileTap={{opacity: [0, 1] }}
                 transition={{duration: 0.5 , ease: "easeInOut"}}
                 className='hoverLayer'
               >
                 <h2>{work.name}</h2>
-                <p>{work.description}</p>
-                <div className='work-icons'>
+                <p>{t(`section_work.description.${i}`)}</p>
+              </motion.div>
+              <div className='work-icons'>
                 {work.link !== "" ?
                 <motion.a href={work.link} target='_blank'
                 whileInView={{scale: [0,1]}}
@@ -78,7 +62,6 @@ const Portfolio = () => {
                 : ""
                 }
                 </div>
-              </motion.div>
             </div>
           )
         })}

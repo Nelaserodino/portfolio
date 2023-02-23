@@ -17,6 +17,23 @@
         padding: 1.2rem 2rem;
         margin-left: auto;
         margin-right: auto;
+        .nav_options{
+            display: flex;
+            justify-content: space-between;
+            .language_buttons{
+                display: flex;
+                margin-left: 20px;
+                button{
+                    background-color: transparent;
+                    border: none;
+                    margin: 0 5px;
+                    font-size: 20px;
+                    @media screen and (max-width: 800px) {
+                        display: none;
+                       }
+                }
+            }
+        }
        .social_icons {
         display: flex;
            @media screen and (max-width: 800px) {
@@ -105,6 +122,14 @@
                 &:hover {
                     opacity: 1;
                 }
+            }
+        }
+        .language_buttons_mobile{
+            button{
+                background-color: transparent;
+                border: none;
+                margin: 5px;
+                font-size: 20px;
             }
         }
        }
