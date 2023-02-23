@@ -147,7 +147,7 @@ export const workImages = [
     name: "Play-Back",
     description: "My solo project for Socratech school is a web application that enables collectors to showcase their collections. Users can create profiles, upload photos and descriptions of their items, and connect with other collectors to share their passion.",
     category: "All",
-    link:"",
+    link:"https://www.youtube.com/watch?v=cHkaiZLq--0",
     github:"https://github.com/Nelaserodino/Socratech_mid_project"
   },
   {
