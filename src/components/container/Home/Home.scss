@@ -33,6 +33,12 @@
                     margin-left: 10px;}
             }
         }
-   
-    }
+        .arrow{
+            width: 100px;
+            height: 100px;
+            rotate: 90deg;
+            cursor: pointer;
+            filter: hue-rotate(444deg);
+        }
+}
  

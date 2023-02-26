@@ -47,60 +47,47 @@ export const bios = [
 
 export const iconsFront = [
   { name: "HTML5",
-    icon:<FaHtml5 color="#D65302"/>, 
-    color:"#D65302"
-   },
-    {name: "CSS3",
-     icon:<FaCss3 color="#2762EA"/>,
-     color:"#2762EA"
-    },
-    {name: "Javascript",
-     icon:<SiJavascript color="#EFD81D"/>,
-     color:"#EFD81D"
-    },
-    {name: "React",
-     icon:<FaReact color="#61DAFB"/>,
-     color:"#61DAFB"
-    },
-    {name: "TypeScript",
-     icon:<SiTypescript color="#3074BF"/>,
-     color:"#3074BF"
-    },
-    {name: "Bootstrap",
-     icon:<FaBootstrap color="#802AF3" />,
-     color:"#802AF3"
-    },
-    {name: "SASS",
-     icon:<FaSass color="#CE7EA6"/>,
-     color:"#CE7EA6"
-    }
+  icon:<FaHtml5 />
+ },
+  {name: "CSS3",
+   icon:<FaCss3 />
+  },
+  {name: "Javascript",
+   icon:<SiJavascript />
+  },
+  {name: "React",
+   icon:<FaReact />
+  },
+  {name: "TypeScript",
+   icon:<SiTypescript />
+  },
+  {name: "Bootstrap",
+   icon:<FaBootstrap  />
+  },
+  {name: "SASS",
+   icon:<FaSass />
+  }
 ]
 export const iconsBack = [
   { name: "Node.js",
-    icon:<FaNode color="#126E00"/>,
-    color:"#126E00"
+    icon:<FaNode />
   }, 
     {name: "Express.js",
-     icon:<SiExpress color="#303030"/>,
-     color:"#303030"
+     icon:<SiExpress />
     },
     {name: "MySQL",
-     icon:<DiMysql color="#EA8C11"/>,
-     color:"#EA8C11"
+     icon:<DiMysql />
     }
 ]
 export const iconsVersionControl = [
   { name: "Git",
-    icon:<FaGit color="#E84C30"/>,
-    color:"#E84C30"
+    icon:<FaGit />
   }, 
     {name: "GitHub",
-     icon:<FaGithub color="#5C1AB0"/>,
-     color:"#5C1AB0"
+     icon:<FaGithub />
   },
   {name: "Figma",
-  icon:<FaFigma color="#9D56F7"/>,
-  color:"#9D56F7"
+  icon:<FaFigma />
 }
 ]
 

@@ -1,19 +1,19 @@
 {
     "navBar": {
         "home": "HOME",
-        "about": "SOBRE MI",
+        "about": "SOBRE MÍ",
         "skills": "HABILIDADES",
         "portfolio": "PORTAFOLIO",
         "contact": "CONTACTO"
     },
     "section_about":{
-        "title": "SOBRE MI",
+        "title": "SOBRE MÍ",
         "message": "¡Hola! ¡Bienvenido/a a mi página web! Me llamo Nela y soy una desarrolladora web junior apasionada por la tecnología. Siempre me ha fascinado el poder de internet y la forma en que conecta a las personas de todo el mundo. Esta fascinación me llevó a querer aprender sobre su funcionamiento y comenzar una carrera en el desarrollo web.",
         "button_contact": "Contáctame",
         "button_cv": "Descargar CV"
     },
     "section_background":{
-        "title":"MI FORMACION",
+        "title":"MI FORMACIÓN",
         "subtitle": "Habilidades y experiencia",
         "button_skills": "Habilidades",
         "description_skills": "Como desarrolladora web, me encanta el desafío de crear sitios y aplicaciones web modernos y fáciles de usar que sean tanto funcionales como estéticamente agradables. Siempre estoy explorando nuevas tecnologías y manteniéndome al día con las últimas tendencias para asegurarme de que mi trabajo esté siempre a la vanguardia.",
@@ -26,7 +26,7 @@
      "description": ["Desarrollo del MVP para HousIA.", "Mi proyecto individual para la escuela Socratech es una aplicación web que permite a los coleccionistas exhibir sus colecciones. Los usuarios pueden crear perfiles, cargar fotos y descripciones de sus artículos y conectarse con otros coleccionistas para compartir su pasión", "Este es el primer sitio web que creé y tiene su propio dominio en internet. Los estudiantes pueden encontrar fácilmente información sobre la experiencia del profesor, el examen y las opiniones","Un clon de Netflix hecho con React y Tailwind", "Una calculadora básica hecha con Javascript Vanilla", "Una aplicación para realizar un seguimiento de sesiones de running y ciclismo hecha con Javascript", "Un juego muy divertido hecho con Javascript."]
     },
     "section_contact": {
-        "title": "Contactame",
+        "title": "Contáctame",
         "subtitle1":"Sólo dí",
         "subtitle2": "Ponte en contacto",
         "name": "Nombre",

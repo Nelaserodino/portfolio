@@ -20,9 +20,18 @@
         .nav_options{
             display: flex;
             justify-content: space-between;
+            .nav_links{
+                .inactive{
+                    display: none;
+                }
+            }
+        }
+        .options-right{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             .language_buttons{
                 display: flex;
-                margin-left: 20px;
                 button{
                     background-color: transparent;
                     border: none;
@@ -34,26 +43,27 @@
                        }
                 }
             }
-        }
-       .social_icons {
-        display: flex;
-           @media screen and (max-width: 800px) {
-            display: none;
-           }
-           a{
-               margin-left: 0.5rem;
-            svg {
-            cursor: pointer;
-            opacity: 0.6;
-            transition: 0.3s;
-            z-index: 5;
-            font-size: 20px;
-            &:hover {
-                opacity: 1;
-            }
-           }
+            .social_icons {
+                display: flex;
+                    @media screen and (max-width: 800px) {
+                    display: none;
+                    }
+                a{
+                    margin-left: 0.5rem;
+                    svg {
+                        cursor: pointer;
+                        opacity: 0.6;
+                        transition: 0.3s;
+                        height: 100%;
+                        z-index: 5;
+                        font-size: 20px;
+                    &:hover {
+                        opacity: 1;
+                    }
+                    }
            
-         }
+                }
+            }
        }
        .menu {
         background: #fff;

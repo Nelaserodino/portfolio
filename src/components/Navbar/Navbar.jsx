@@ -53,19 +53,22 @@ const Navbar = ({t, i18n}) => {
                 className="nav_links"
                    >
                   {navLinks.map((navlink,index) => {
-                      return <li key={index}><a className={scroll ? "active" : ""} href={`#${navlink}`}>{t(`navBar.${navlink}`)}</a></li>
+                      return <li key={index}><a className={scroll ? "active" : "inactive"} href={`#${navlink}`}>{t(`navBar.${navlink}`)}</a></li>
                   })}
                </ul>
-                  {scroll && <div className='language_buttons'>
+            </div>
+            <div className='options-right'>
+            {scroll && <div className='language_buttons'>
                                 <button onClick={()=> i18n.changeLanguage("es")}>🇪🇸</button>
                                 <button onClick={()=> i18n.changeLanguage("en")}>🇬🇧</button>
                             </div>
                             }
-            </div>
               <div className="social_icons" >
                 <motion.a href="https://www.linkedin.com/in/marianela-serodino-runco/"target="_blank">{<FaLinkedin/>}</motion.a>
                 <motion.a href="https://github.com/Nelaserodino"target="_blank">{<FaGithub/>}</motion.a>
               </div>
+            </div>
+            
               <div className="menu" >
                   <HiMenuAlt4 onClick={() => {setToggle(true)}}/>
               </div>

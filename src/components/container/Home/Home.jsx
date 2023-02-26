@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Home.scss"
 import {  motion } from 'framer-motion'
+import arrow from "../../../assets/fast-forward.gif"
 
 
 const Home = () => {
@@ -37,33 +38,16 @@ const Home = () => {
       <h2 className='subtitle'> <span>Web Developer</span></h2>
       </motion.div>
       </div>
-     
-      
-     
-    {/* <motion.div
-      initial={{ y: 0, opacity:0}}
-      animate={{ y: 100, opacity:1}}
-      transition={
-        {
-          duration: 2,
-          delay: 0.3
-        }
-      }
-    > */}
-      
-    {/* </motion.div>
-    <motion.div 
-    initial={{ y: 0, opacity: 0 }}
-    animate={{ y: 50, opacity: 1 }}
-    transition={
-      {
-        duration: 2,
-        delay: 2
-      }
-    }
-  > */}
-    
-  {/* </motion.div> */}
+      <motion.div 
+       initial={{opacity: 0}}
+       whileInView={{y: [200, 200], opacity: 1, repeat: false}}
+       transition={{
+        delay:5,
+        y: {duration:2},
+      }}
+      >
+       <a href='#about'> <img src={arrow} alt='arrow-down' className='arrow'/></a>
+      </motion.div> 
   </div>
   )
 }

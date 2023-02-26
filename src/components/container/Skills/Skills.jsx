@@ -54,18 +54,14 @@ const Skills = ({t}) => {
        <div className="skills-grid">
        {iconsFront.map((icon, index) => {
           return (
-            
             <div key={index} className="tools" >
             {icon.icon}
             <p>{icon.name}</p>
             </div>
-             
-             
           )
         })}
        </div>     
        </motion.div>
-
        <div className='container-back-version'>
        <motion.div
         initial={{opacity: 0}}

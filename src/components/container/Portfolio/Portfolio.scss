@@ -66,14 +66,15 @@
                 flex-direction: column;
                 color: white;
                 font-family: 'Fira Code', monospace;
-                
+                h2{
+                    user-select: none;
+                }
             }
             .work-icons{ 
                 display: flex;
                 justify-content: center;
                 a {
                 color: white;
-               
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -86,7 +87,7 @@
             }}
            
             p{
-                text-align: justify;
+                user-select: none;
                 padding: 0 10px;
             }
         }
