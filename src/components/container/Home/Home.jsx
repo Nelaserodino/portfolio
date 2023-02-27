@@ -40,10 +40,9 @@ const Home = () => {
       </div>
       <motion.div 
        initial={{opacity: 0}}
-       whileInView={{y: [200, 200], opacity: 1, repeat: false}}
+       whileInView={{y: [70, 70], opacity: 1, repeat: false}}
        transition={{
-        delay:5,
-        y: {duration:2},
+        delay:6,
       }}
       >
        <a href='#about'> <img src={arrow} alt='arrow-down' className='arrow'/></a>
