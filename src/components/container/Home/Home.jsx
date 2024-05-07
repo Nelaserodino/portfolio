@@ -43,7 +43,7 @@ const Home = () => {
        initial={{opacity: 0}}
        whileInView={{y: [70, 70], opacity: 1, repeat: false}}
        transition={{
-        delay:6,
+        delay:4,
       }}
       >
        <a href='#about'> <img src={arrow} alt='arrow-down' className='arrow'/></a>
