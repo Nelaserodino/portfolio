@@ -10,6 +10,8 @@ import work4 from "./assets/work4.png";
 import work5 from "./assets/work5.png";
 import work6 from "./assets/work6.png";
 import work7 from "./assets/work7.png";
+import QA1 from '../src/assets/TrelloAPI.png';
+import QA2 from '../src/assets/DemoQA.png';
 
 export const navLinks = ["home", "about", "skills", "portfolio", "contact"]
 
@@ -118,7 +120,7 @@ export const experiences = [
   }
 ]
 
-export const workImages = [
+export const developerExperience = [
   {
     id: 1,
     img: work1,
@@ -182,6 +184,24 @@ export const workImages = [
     link:"https://nelaserodino-guess-my-number.vercel.app",
     github:"https://github.com/Nelaserodino/Guess_my_number"
   },
+]
+export const QAExperience = [
+  {
+    id: 1,
+    img: QA1,
+    name: "Trello API",
+    description:"Using Cypress and TypeScript to create and run automated tests that interact with Trello to demonstrate the capabilities of API automation.",
+    category: "All",
+    github:"https://github.com/Nelaserodino/TrelloAPI-Cypress-TypeScript"
+  },
+  {
+    id: 2,
+    img: QA2,
+    name: "Demo QA",
+    description: "The DemoQA webpage includes sections for practicing operations like clicking and form entry, interacting with widgets such as sliders and calendars and managing dynamic content",
+    category: "All",
+    github:"https://github.com/Nelaserodino/testing-hauslondon-web"
+  }
 ]
 
 

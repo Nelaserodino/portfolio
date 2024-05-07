@@ -2,7 +2,7 @@ import {React} from 'react'
 import "./About.scss";
 import { motion} from 'framer-motion';
 import portfolio from "../../../assets/portfolio.jpg"
-import cv from '../../../assets/CV-MarianelaSerodinoRunco.pdf'
+import cv from '../../../assets/QA-Marianela-Serodino-Runco.pdf'
 
 
 const About = ({t}) => {

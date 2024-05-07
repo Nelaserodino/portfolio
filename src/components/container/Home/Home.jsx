@@ -25,7 +25,9 @@ const Home = () => {
         x: {duration:2},
        }}
        >
-      <h2 className='subtitle'>Full-Stack<span> </span></h2>
+      <h2 className='subtitle'>Front-end<span>Developer</span></h2>
+      <h2 className='subtitle'>&<span> </span></h2>
+      <h2 className='subtitle'>QA Automation<span>Tester</span></h2>
       </motion.div>
       <motion.div
        initial={{opacity: 0}}
@@ -35,7 +37,6 @@ const Home = () => {
         x: {duration:2},
       }}
        >
-      <h2 className='subtitle'> <span>Web Developer</span></h2>
       </motion.div>
       </div>
       <motion.div 

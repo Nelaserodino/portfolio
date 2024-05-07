@@ -20,6 +20,7 @@
         .subtitle-container{
             display: flex;
             .subtitle{
+                text-align: center;
                 font-size: 2.5rem;
                 font-weight: lighter;
                 @media screen and (max-width: 700px) {
