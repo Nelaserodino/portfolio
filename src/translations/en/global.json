@@ -16,9 +16,9 @@
         "title":"MY BACKGROUND",
         "subtitle": "Skills and experience",
         "button_skills": "Skills",
-        "description_skills": "As a web developer, I love the challenge of creating beautiful, user-friendly websites and web applications that are both functional and aesthetically pleasing. I am constantly exploring new technologies and staying up-to-date with the latest trends to ensure that my work is always at the cutting edge.",
+        "description_skills": "As a web developer, I thrive on the challenge of creating beautiful, user-friendly websites and web applications that blend functionality with aesthetic appeal. I am dedicated to continuous learning, keeping abreast of the latest technologies and trends to ensure my work remains cutting-edge. Additionally, I have honed my skills in testing and automation, utilizing tools like Cypress and TypeScript, and effectively integrating Jira and Agile methodologies to enhance project management and team collaboration.",
         "button_experience": "Experience",
-        "description_experience": "While I may have little work experience, I am eager to learn and am excited for opportunities to gain new skills and grow as a professional."
+        "description_experience": "I began my journey in web development through a bootcamp and have since been involved in creating various webpages. With two years of experience, I am continually enhancing my skills, particularly in testing and automation, where I actively use Cypress and TypeScript to improve and streamline processes."
     },
    "section_work":{
     "title": "MY WORK",

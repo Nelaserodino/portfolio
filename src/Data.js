@@ -1,6 +1,7 @@
-import { FaHtml5, FaCss3, FaNodeJs, FaReact, FaSass, FaFigma, FaPhoneAlt, FaPaperPlane, FaGithub, FaLinkedin, FaBootstrap, FaGit, FaNode } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaNodeJs, FaReact, FaSass, FaFigma, FaPhoneAlt, FaPaperPlane, FaGithub, FaLinkedin, FaBootstrap, FaGit, FaNode, FaJira, FaTrello, FaJava, FaXRay } from "react-icons/fa";
 import {  DiMysql } from "react-icons/di";
-import { SiExpress, SiJavascript, SiTypescript } from "react-icons/si";
+import { SiExpress, SiJavascript, SiTypescript, SiCypress, SiAzuredevops } from "react-icons/si";
+
 
 
 import work1 from "./assets/work1.png";
@@ -79,6 +80,9 @@ export const iconsBack = [
     },
     {name: "MySQL",
      icon:<DiMysql />
+    },
+    {name: "Java",
+     icon:<FaJava />
     }
 ]
 export const iconsVersionControl = [
@@ -90,12 +94,39 @@ export const iconsVersionControl = [
   },
   {name: "Figma",
   icon:<FaFigma />
-}
+  }
+]
+export const iconsQA = [
+  { name: "Cypress",
+    icon:<SiCypress />
+  },
+  { name: "X-Ray",
+    icon:<FaXRay />
+  }
+]
+export const softwareManagement = [
+  {name: "Jira",
+  icon:<FaJira />
+  },
+  {name: "Trello",
+  icon:<FaTrello />
+  },
+  {name: "ADO",
+  icon:<SiAzuredevops />
+  }
 ]
 
 export const experiences = [
   {
     id: 1,
+    year: "2023-2024",
+    position: "QA Manual and Automation",
+    company: "Price Waterhouse Coopers",
+    jobPicture: "price.jpg",
+    skills: [ <SiCypress color="#7EE6AA"/>, <FaJira color="#1756BB" />, <FaTrello color="#1D76BC" />, <SiJavascript color="#f0db4f"/>, <SiTypescript color="#3074BF"/>, <FaGithub color="#5C1AB0"/> ]
+  },
+  {
+    id: 2,
     year: "2023",
     position: "Junior Full-stack Web Developer",
     company: "Development of the web app for HousIA",
@@ -103,7 +134,7 @@ export const experiences = [
     skills: [<FaHtml5 color="#D65302"/>, <FaCss3 color="#2762EA"/>, <FaBootstrap color="#802AF3" />,<FaSass color="#CE7EA6"/>,<FaReact color="#61DAFB"/>,<FaNodeJs color="#126E00"/>, <DiMysql color="#EA8C11"/>, <FaFigma color="#9D56F7"/>, <SiExpress color="#303030"/>, <FaGithub color="#5C1AB0"/>]
   },
   {
-    di: 2,
+    di: 3,
     year: "2022",
     position: "Junior Front-End Web Developer",
     company: "Development of the web page for IELTSforOZ",
@@ -111,7 +142,7 @@ export const experiences = [
     skills: [<FaHtml5 color="#D65302"/>, <FaCss3 color="#2762EA"/>,<FaBootstrap color="#802AF3" />,<FaSass color="#CE7EA6"/>]
   },
   {
-    id: 3,
+    id: 4,
     year: "2022",
     position: "Web Developer Student",
     company: "Socratech Bootcamp",
@@ -192,6 +223,7 @@ export const QAExperience = [
     name: "Trello API",
     description:"Using Cypress and TypeScript to create and run automated tests that interact with Trello to demonstrate the capabilities of API automation.",
     category: "All",
+    link:"",
     github:"https://github.com/Nelaserodino/TrelloAPI-Cypress-TypeScript"
   },
   {
@@ -200,6 +232,7 @@ export const QAExperience = [
     name: "Demo QA",
     description: "The DemoQA webpage includes sections for practicing operations like clicking and form entry, interacting with widgets such as sliders and calendars and managing dynamic content",
     category: "All",
+    link:"",
     github:"https://github.com/Nelaserodino/testing-hauslondon-web"
   }
 ]

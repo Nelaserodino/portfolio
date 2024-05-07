@@ -63,10 +63,9 @@
 }
 .container-back-version{
   display: flex;
-  align-items: center;
+  flex-direction: column;
   width: 80%;
   @media screen and(max-width: 1010px) {
-    flex-direction: column;
     .skills{
       width: 100%;
     }
