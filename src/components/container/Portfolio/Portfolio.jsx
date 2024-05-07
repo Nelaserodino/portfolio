@@ -102,7 +102,7 @@ const Portfolio = ({t}) => {
                 className='hoverLayer'
               >
                 <h2>{qa.name}</h2>
-                <p>{qa.description}</p>
+                <p>{t(`section_work.qa_description.${i}`)}</p>
               </motion.div>
               <div className='work-icons'>
                 {qa.link !== "" ?

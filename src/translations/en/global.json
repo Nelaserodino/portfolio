@@ -14,7 +14,7 @@
     },
     "section_background":{
         "title":"MY BACKGROUND",
-        "subtitle": "Skills and experience",
+        "subtitle": "Experience and Skills",
         "button_skills": "Skills",
         "description_skills": "As a web developer, I thrive on the challenge of creating beautiful, user-friendly websites and web applications that blend functionality with aesthetic appeal. I am dedicated to continuous learning, keeping abreast of the latest technologies and trends to ensure my work remains cutting-edge. Additionally, I have honed my skills in testing and automation, utilizing tools like Cypress and TypeScript, and effectively integrating Jira and Agile methodologies to enhance project management and team collaboration.",
         "button_experience": "Experience",
@@ -31,6 +31,9 @@
         "A simple calculator made with Javascript Vainilla",
         "An app to track running and cycling workouts made with Javascript",
         "A fun game made with Javascript"
+    ], "qa_description": [
+        "Using Cypress and TypeScript to create and run automated tests that interact with Trello to demonstrate the capabilities of API automation.",
+        "The DemoQA webpage includes sections for practicing operations like clicking and form entry, interacting with widgets such as sliders and calendars and managing dynamic content"
     ],
     "button_developer": "Developer",
     "button_qa": "QA"

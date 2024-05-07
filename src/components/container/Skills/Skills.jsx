@@ -83,7 +83,7 @@ const Skills = ({t}) => {
         })}
        </div>     
        </motion.div>
-       <div className='container-back-version'>
+       
        <motion.div
         initial={{opacity: 0}}
         whileInView={{x: [-50, 0], opacity: 1}}
@@ -148,7 +148,7 @@ const Skills = ({t}) => {
         })}
        </div>     
        </motion.div>
-      </div>
+      
       
       </div>}
     </div>

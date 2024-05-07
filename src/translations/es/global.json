@@ -14,7 +14,7 @@
     },
     "section_background":{
         "title":"MI FORMACIÓN",
-        "subtitle": "Habilidades y experiencia",
+        "subtitle": "Experiencia y Habilidades",
         "button_skills": "Habilidades",
         "description_skills": "Como desarrolladora web, me encanta el desafío de crear sitios y aplicaciones web modernos y fáciles de usar que sean tanto funcionales como estéticamente agradables. Siempre estoy explorando nuevas tecnologías y manteniéndome al día con las últimas tendencias para asegurarme de que mi trabajo esté siempre a la vanguardia.",
         "button_experience": "Experiencia",
@@ -23,7 +23,13 @@
     "section_work":{
      "title": "MIS PROYECTOS",
      "subtitle": "Estos son algunos de los proyectos en los que he estado trabajando",
-     "description": ["Desarrollo del MVP para HousIA.", "Mi proyecto individual para la escuela Socratech es una aplicación web que permite a los coleccionistas exhibir sus colecciones. Los usuarios pueden crear perfiles, cargar fotos y descripciones de sus artículos y conectarse con otros coleccionistas para compartir su pasión", "Este es el primer sitio web que creé y tiene su propio dominio en internet. Los estudiantes pueden encontrar fácilmente información sobre la experiencia del profesor, el examen y las opiniones","Un clon de Netflix hecho con React y Tailwind", "Una calculadora básica hecha con Javascript Vanilla", "Una aplicación para realizar un seguimiento de sesiones de running y ciclismo hecha con Javascript", "Un juego muy divertido hecho con Javascript."]
+     "developer_description": ["Desarrollo del MVP para HousIA.", "Mi proyecto individual para la escuela Socratech es una aplicación web que permite a los coleccionistas exhibir sus colecciones. Los usuarios pueden crear perfiles, cargar fotos y descripciones de sus artículos y conectarse con otros coleccionistas para compartir su pasión", "Este es el primer sitio web que creé y tiene su propio dominio en internet. Los estudiantes pueden encontrar fácilmente información sobre la experiencia del profesor, el examen y las opiniones","Un clon de Netflix hecho con React y Tailwind", "Una calculadora básica hecha con Javascript Vanilla", "Una aplicación para realizar un seguimiento de sesiones de running y ciclismo hecha con Javascript", "Un juego muy divertido hecho con Javascript."],
+     "qa_description": [
+        "Usando Cypress y TypeScript para crear y ejecutar pruebas automatizadas que interactúan con Trello para demostrar las capacidades de la automatización de API.",
+        "La página web DemoQA incluye secciones para practicar operaciones como hacer clic y entrada de formularios, interactuar con widgets como deslizadores y calendarios, y gestionar contenido dinámico."
+    ],
+     "button_developer": "Desarrolladora",
+     "button_qa": "QA"
     },
     "section_contact": {
         "title": "Contáctame",
