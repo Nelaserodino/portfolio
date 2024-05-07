@@ -233,7 +233,7 @@ export const QAExperience = [
     description: "The DemoQA webpage includes sections for practicing operations like clicking and form entry, interacting with widgets such as sliders and calendars and managing dynamic content",
     category: "All",
     link:"",
-    github:"https://github.com/Nelaserodino/testing-hauslondon-web"
+    github:"https://github.com/Nelaserodino/DemoQA_Cypress"
   }
 ]
 
